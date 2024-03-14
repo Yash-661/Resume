@@ -1,0 +1,76 @@
+:root {
+	--margin-bottom: 10px;
+}
+
+.a4 {
+	width: 21cm;
+	min-height: 29.7cm;
+	padding: 2cm;
+	background: white;
+}
+
+
+.two-columns {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.two-columns>* {
+	padding: 1rem;
+}
+
+.skills .two-columns {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 0.5fr));
+}
+
+.education .two-columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+header {
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+header .name {
+	font-size: 50px;
+	margin: 20px;
+	margin: 0;
+}
+
+.section,
+.section * {
+	margin: 0;
+	padding: 0;
+}
+
+.section {
+	margin-bottom: var(--margin-bottom);
+}
+
+.section ul {
+	padding-left: 20px;
+}
+
+.section h2 {
+	margin-bottom: var(--margin-bottom);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.section h4 {
+	margin-bottom: var(--margin-bottom);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.certifications{
+	border-right: 1px solid #b8b8b8;
+	margin-right: 10px;
+}
