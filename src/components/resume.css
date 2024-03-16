@@ -1,0 +1,45 @@
+@import url('./variables.css');
+
+.paper {
+	width: 21cm;
+	min-height: 29.7cm;
+	padding: 1cm; /* margin for a4 sheet */
+	background: var(--background-color);
+}
+
+.title {
+	color: var(--primary-text-color);
+	font-size: var(--title-font-size);
+}
+
+.link {
+	color: var(--secondary-text-color);
+	text-decoration: none;
+}
+
+.header {
+	text-align: center;
+}
+
+.h1{
+	color: var(--primary-text-color);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.h2{
+	color: var(--secondary-text-color);
+	font-weight: bold;
+}
+
+.block {
+	border-radius: 10px;
+	padding: 10px; /* margin for a4 */
+	margin-bottom: var(--margin-bottom);
+	background-color: var(--block-background-color);
+}
+
+.block2 {
+	border-bottom: 2px solid var(--block-background-color);
+}
+

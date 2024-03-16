@@ -6,7 +6,8 @@
 
 .view {
 	margin: 10px auto;
-	border: 1px #D3D3D3 solid;
+	overflow: hidden;
+	border: 1px #f96af4 solid;
 	border-radius: 5px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -22,8 +23,6 @@
 }
 
 .btn:hover {
-	width: 5rem;
-	height: 2rem;
 	color: white;
 	background-color: black;
 	border: 2px solid black;

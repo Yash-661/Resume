@@ -1,0 +1,42 @@
+:root {
+	/* primitives */
+	/* colors */
+	/* --gray-0: #000000;
+	--gray-50: #333333;
+	--gray-100: #666666;
+	--gray-200: #999999;
+	--gray-300: #cccccc;
+	--gray-400: #EEEEEE;
+	--gray-500: #FFFFFF; */
+
+	/* colors2 */
+
+	--gray-0: #001c34;
+	--gray-50: #012c51;
+	--gray-100: #003d71;
+	--gray-200: #0c5595;
+	--gray-300: #2273ba;
+	--gray-400: #5ca4e3;
+	--gray-500: #a3d0f7;
+	--gray-600: #e8f1f8;
+}
+
+:root {
+	/* tokens */
+	/* colors */
+	--title-text-color: var(--gray-0);
+	--primary-text-color: var(--gray-50);
+	--secondary-text-color: var(--gray-100);
+	--third-text-color: var(--gray-0);
+
+	--para-text-color: var(--title-text-color);
+
+	--background-color: var(--gray-600); 
+	--block-background-color: var(--gray-500);
+	
+	/* font sizes */
+	--title-font-size: 50px;
+
+	/* others */
+	--margin-bottom: 10px;
+}

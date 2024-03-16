@@ -1,24 +1,14 @@
-import { useReactToPrint } from 'react-to-print';
 import './App.css';
-import { Resume } from './resume';
-import { useRef } from 'react';
+import { Document } from 'react-pdf'
 
 function App() {
-  const ResumeRef = useRef(null);
 
-  const handlePrint = useReactToPrint({
-    content: () => ResumeRef.current,
-  }); 
+  const filepath = 'assets/resume.pdf';
 
   return (
-    <div className='body'>
-      <button className='btn' onClick={handlePrint}>Print</button>
-      <div className="view">
-        <div ref={ResumeRef}>
-          <Resume />
-        </div>
-      </div>
-    </div>
+    <>
+      <Document file={filepath} />
+    </>
   )
 }
 
